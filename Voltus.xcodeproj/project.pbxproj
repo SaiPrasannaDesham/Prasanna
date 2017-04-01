@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A58FA7501E8F7D6600FE1E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA74F1E8F7D6600FE1E88 /* AppDelegate.swift */; };
+		A58FA7521E8F7D6600FE1E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA7511E8F7D6600FE1E88 /* ViewController.swift */; };
+		A58FA7551E8F7D6600FE1E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58FA7531E8F7D6600FE1E88 /* Main.storyboard */; };
+		A58FA7571E8F7D6600FE1E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58FA7561E8F7D6600FE1E88 /* Assets.xcassets */; };
+		A58FA75A1E8F7D6600FE1E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58FA7581E8F7D6600FE1E88 /* LaunchScreen.storyboard */; };
+		A58FA7651E8F7D6600FE1E88 /* VoltusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA7641E8F7D6600FE1E88 /* VoltusTests.swift */; };
+		A58FA7701E8F7D6600FE1E88 /* VoltusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA76F1E8F7D6600FE1E88 /* VoltusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A58FA7611E8F7D6600FE1E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A58FA7441E8F7D6500FE1E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A58FA74B1E8F7D6500FE1E88;
+			remoteInfo = Voltus;
+		};
+		A58FA76C1E8F7D6600FE1E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A58FA7441E8F7D6500FE1E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A58FA74B1E8F7D6500FE1E88;
+			remoteInfo = Voltus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A58FA74C1E8F7D6600FE1E88 /* Voltus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voltus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58FA74F1E8F7D6600FE1E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A58FA7511E8F7D6600FE1E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A58FA7541E8F7D6600FE1E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A58FA7561E8F7D6600FE1E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A58FA7591E8F7D6600FE1E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A58FA75B1E8F7D6600FE1E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58FA7601E8F7D6600FE1E88 /* VoltusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoltusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58FA7641E8F7D6600FE1E88 /* VoltusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltusTests.swift; sourceTree = "<group>"; };
+		A58FA7661E8F7D6600FE1E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58FA76B1E8F7D6600FE1E88 /* VoltusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoltusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58FA76F1E8F7D6600FE1E88 /* VoltusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltusUITests.swift; sourceTree = "<group>"; };
+		A58FA7711E8F7D6600FE1E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A58FA7491E8F7D6500FE1E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58FA75D1E8F7D6600FE1E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58FA7681E8F7D6600FE1E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A58FA7431E8F7D6500FE1E88 = {
+			isa = PBXGroup;
+			children = (
+				A58FA74E1E8F7D6600FE1E88 /* Voltus */,
+				A58FA7631E8F7D6600FE1E88 /* VoltusTests */,
+				A58FA76E1E8F7D6600FE1E88 /* VoltusUITests */,
+				A58FA74D1E8F7D6600FE1E88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A58FA74D1E8F7D6600FE1E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A58FA74C1E8F7D6600FE1E88 /* Voltus.app */,
+				A58FA7601E8F7D6600FE1E88 /* VoltusTests.xctest */,
+				A58FA76B1E8F7D6600FE1E88 /* VoltusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A58FA74E1E8F7D6600FE1E88 /* Voltus */ = {
+			isa = PBXGroup;
+			children = (
+				A58FA74F1E8F7D6600FE1E88 /* AppDelegate.swift */,
+				A58FA7511E8F7D6600FE1E88 /* ViewController.swift */,
+				A58FA7531E8F7D6600FE1E88 /* Main.storyboard */,
+				A58FA7561E8F7D6600FE1E88 /* Assets.xcassets */,
+				A58FA7581E8F7D6600FE1E88 /* LaunchScreen.storyboard */,
+				A58FA75B1E8F7D6600FE1E88 /* Info.plist */,
+			);
+			path = Voltus;
+			sourceTree = "<group>";
+		};
+		A58FA7631E8F7D6600FE1E88 /* VoltusTests */ = {
+			isa = PBXGroup;
+			children = (
+				A58FA7641E8F7D6600FE1E88 /* VoltusTests.swift */,
+				A58FA7661E8F7D6600FE1E88 /* Info.plist */,
+			);
+			path = VoltusTests;
+			sourceTree = "<group>";
+		};
+		A58FA76E1E8F7D6600FE1E88 /* VoltusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A58FA76F1E8F7D6600FE1E88 /* VoltusUITests.swift */,
+				A58FA7711E8F7D6600FE1E88 /* Info.plist */,
+			);
+			path = VoltusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A58FA74B1E8F7D6500FE1E88 /* Voltus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58FA7741E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "Voltus" */;
+			buildPhases = (
+				A58FA7481E8F7D6500FE1E88 /* Sources */,
+				A58FA7491E8F7D6500FE1E88 /* Frameworks */,
+				A58FA74A1E8F7D6500FE1E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voltus;
+			productName = Voltus;
+			productReference = A58FA74C1E8F7D6600FE1E88 /* Voltus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A58FA75F1E8F7D6600FE1E88 /* VoltusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58FA7771E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "VoltusTests" */;
+			buildPhases = (
+				A58FA75C1E8F7D6600FE1E88 /* Sources */,
+				A58FA75D1E8F7D6600FE1E88 /* Frameworks */,
+				A58FA75E1E8F7D6600FE1E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A58FA7621E8F7D6600FE1E88 /* PBXTargetDependency */,
+			);
+			name = VoltusTests;
+			productName = VoltusTests;
+			productReference = A58FA7601E8F7D6600FE1E88 /* VoltusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A58FA76A1E8F7D6600FE1E88 /* VoltusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58FA77A1E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "VoltusUITests" */;
+			buildPhases = (
+				A58FA7671E8F7D6600FE1E88 /* Sources */,
+				A58FA7681E8F7D6600FE1E88 /* Frameworks */,
+				A58FA7691E8F7D6600FE1E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A58FA76D1E8F7D6600FE1E88 /* PBXTargetDependency */,
+			);
+			name = VoltusUITests;
+			productName = VoltusUITests;
+			productReference = A58FA76B1E8F7D6600FE1E88 /* VoltusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A58FA7441E8F7D6500FE1E88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "vw-mac-01";
+				TargetAttributes = {
+					A58FA74B1E8F7D6500FE1E88 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = D9PJNN777J;
+						ProvisioningStyle = Automatic;
+					};
+					A58FA75F1E8F7D6600FE1E88 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = D9PJNN777J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A58FA74B1E8F7D6500FE1E88;
+					};
+					A58FA76A1E8F7D6600FE1E88 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = D9PJNN777J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A58FA74B1E8F7D6500FE1E88;
+					};
+				};
+			};
+			buildConfigurationList = A58FA7471E8F7D6500FE1E88 /* Build configuration list for PBXProject "Voltus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A58FA7431E8F7D6500FE1E88;
+			productRefGroup = A58FA74D1E8F7D6600FE1E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A58FA74B1E8F7D6500FE1E88 /* Voltus */,
+				A58FA75F1E8F7D6600FE1E88 /* VoltusTests */,
+				A58FA76A1E8F7D6600FE1E88 /* VoltusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A58FA74A1E8F7D6500FE1E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58FA75A1E8F7D6600FE1E88 /* LaunchScreen.storyboard in Resources */,
+				A58FA7571E8F7D6600FE1E88 /* Assets.xcassets in Resources */,
+				A58FA7551E8F7D6600FE1E88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58FA75E1E8F7D6600FE1E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58FA7691E8F7D6600FE1E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A58FA7481E8F7D6500FE1E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58FA7521E8F7D6600FE1E88 /* ViewController.swift in Sources */,
+				A58FA7501E8F7D6600FE1E88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58FA75C1E8F7D6600FE1E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58FA7651E8F7D6600FE1E88 /* VoltusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58FA7671E8F7D6600FE1E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58FA7701E8F7D6600FE1E88 /* VoltusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A58FA7621E8F7D6600FE1E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A58FA74B1E8F7D6500FE1E88 /* Voltus */;
+			targetProxy = A58FA7611E8F7D6600FE1E88 /* PBXContainerItemProxy */;
+		};
+		A58FA76D1E8F7D6600FE1E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A58FA74B1E8F7D6500FE1E88 /* Voltus */;
+			targetProxy = A58FA76C1E8F7D6600FE1E88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A58FA7531E8F7D6600FE1E88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A58FA7541E8F7D6600FE1E88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A58FA7581E8F7D6600FE1E88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A58FA7591E8F7D6600FE1E88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A58FA7721E8F7D6600FE1E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A58FA7731E8F7D6600FE1E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A58FA7751E8F7D6600FE1E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D9PJNN777J;
+				INFOPLIST_FILE = Voltus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Voltus.Voltus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A58FA7761E8F7D6600FE1E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D9PJNN777J;
+				INFOPLIST_FILE = Voltus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Voltus.Voltus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A58FA7781E8F7D6600FE1E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D9PJNN777J;
+				INFOPLIST_FILE = VoltusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Voltus.VoltusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voltus.app/Voltus";
+			};
+			name = Debug;
+		};
+		A58FA7791E8F7D6600FE1E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D9PJNN777J;
+				INFOPLIST_FILE = VoltusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Voltus.VoltusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voltus.app/Voltus";
+			};
+			name = Release;
+		};
+		A58FA77B1E8F7D6600FE1E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D9PJNN777J;
+				INFOPLIST_FILE = VoltusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Voltus.VoltusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Voltus;
+			};
+			name = Debug;
+		};
+		A58FA77C1E8F7D6600FE1E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D9PJNN777J;
+				INFOPLIST_FILE = VoltusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Voltus.VoltusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Voltus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A58FA7471E8F7D6500FE1E88 /* Build configuration list for PBXProject "Voltus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58FA7721E8F7D6600FE1E88 /* Debug */,
+				A58FA7731E8F7D6600FE1E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58FA7741E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "Voltus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58FA7751E8F7D6600FE1E88 /* Debug */,
+				A58FA7761E8F7D6600FE1E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A58FA7771E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "VoltusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58FA7781E8F7D6600FE1E88 /* Debug */,
+				A58FA7791E8F7D6600FE1E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A58FA77A1E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "VoltusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58FA77B1E8F7D6600FE1E88 /* Debug */,
+				A58FA77C1E8F7D6600FE1E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A58FA7441E8F7D6500FE1E88 /* Project object */;
+}
