@@ -14,12 +14,16 @@ class SlideViewViewController: UIViewController,UITableViewDelegate, UITableView
     @IBOutlet weak var middleTableView:UITableView?
     @IBOutlet weak var profileEdit: UIButton?
     @IBOutlet weak var imagePicker: UIImageView?
+    @IBOutlet weak var imageViewPlaceHolderView:UIView?
+
+    
     var picker:UIImagePickerController?=UIImagePickerController()
     var centralViewController: UIViewController!
     let middleTableViewArray:[[String:Any]] = [["image":"Import.png","label":"Imported"],["image":"Gallery.png","label":"Gallery"],["image":"SlideShow.png","label":"Slideshow"],["image":"Tools.png","label":"Tools"]]
    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.imageViewPlaceHolderView?.isHidden = true
 
     }
 
@@ -100,6 +104,8 @@ class SlideViewViewController: UIViewController,UITableViewDelegate, UITableView
             if(UIImagePickerController .isSourceTypeAvailable(UIImagePickerControllerSourceType.camera)) {
                 picker!.sourceType = UIImagePickerControllerSourceType.camera
                 self .present(picker!, animated: true, completion: nil)
+                self.imageViewPlaceHolderView?.isHidden = true
+
             } else {
                 openGallary()
             }
@@ -109,6 +115,8 @@ class SlideViewViewController: UIViewController,UITableViewDelegate, UITableView
             picker!.sourceType = UIImagePickerControllerSourceType.photoLibrary
             if UIDevice.current.userInterfaceIdiom == .phone {
                 self.present(picker!, animated: true, completion: nil)
+                self.imageViewPlaceHolderView?.isHidden = true
+
             } else {
                 
             }
@@ -116,6 +124,8 @@ class SlideViewViewController: UIViewController,UITableViewDelegate, UITableView
         
         func deleteCamera() {
           imagePicker?.image = nil
+            self.imageViewPlaceHolderView?.isHidden = false
+
    
         }
 // Mark: ImagePicker Delegate Method
