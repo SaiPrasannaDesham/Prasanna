@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57DE37F75A70C989FAF2BF15 /* Pods_VoltusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF7671249A36C0328CEBAE0 /* Pods_VoltusTests.framework */; };
 		A58FA7501E8F7D6600FE1E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA74F1E8F7D6600FE1E88 /* AppDelegate.swift */; };
-		A58FA7521E8F7D6600FE1E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA7511E8F7D6600FE1E88 /* ViewController.swift */; };
 		A58FA7551E8F7D6600FE1E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58FA7531E8F7D6600FE1E88 /* Main.storyboard */; };
 		A58FA7571E8F7D6600FE1E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58FA7561E8F7D6600FE1E88 /* Assets.xcassets */; };
 		A58FA75A1E8F7D6600FE1E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58FA7581E8F7D6600FE1E88 /* LaunchScreen.storyboard */; };
 		A58FA7651E8F7D6600FE1E88 /* VoltusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA7641E8F7D6600FE1E88 /* VoltusTests.swift */; };
 		A58FA7701E8F7D6600FE1E88 /* VoltusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA76F1E8F7D6600FE1E88 /* VoltusUITests.swift */; };
+		A58FA7821E8F803B00FE1E88 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA7811E8F803B00FE1E88 /* SignInViewController.swift */; };
+		A58FA7841E8FAA1C00FE1E88 /* CollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA7831E8FAA1C00FE1E88 /* CollectionViewViewController.swift */; };
+		A58FA7861E8FB82100FE1E88 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA7851E8FB82100FE1E88 /* CollectionCell.swift */; };
+		A58FA7881E8FC9A800FE1E88 /* SlideViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA7871E8FC9A800FE1E88 /* SlideViewViewController.swift */; };
+		A58FA78A1E8FCCFC00FE1E88 /* MiddeleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FA7891E8FCCFC00FE1E88 /* MiddeleTableViewCell.swift */; };
+		A5CE6B601E9E460F0088D13F /* Color+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE6B5F1E9E460F0088D13F /* Color+UIImageView.swift */; };
+		A5EEC6F41E93651200EFD1B7 /* ApplyLeavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EEC6F31E93651200EFD1B7 /* ApplyLeavesViewController.swift */; };
+		A5EEC6F61E936B3C00EFD1B7 /* ApplyLeavesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EEC6F51E936B3C00EFD1B7 /* ApplyLeavesCell.swift */; };
+		A5EEC6F81E93A2AE00EFD1B7 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EEC6F71E93A2AE00EFD1B7 /* CalenderViewController.swift */; };
+		A5F5AFFA1E90C2BE00553AE0 /* UIKit+DLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5AFF91E90C2BE00553AE0 /* UIKit+DLExtensions.swift */; };
+		A5F83B4B1E961086007F3584 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F83B4A1E961086007F3584 /* ChangePasswordViewController.swift */; };
+		A5F841A61E956812005BEDEE /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F841A51E956811005BEDEE /* OTPViewController.swift */; };
+		DA71F99610A886D8E45F451D /* Pods_Voltus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E19A9D18DFBEF54ACE3CD0E /* Pods_Voltus.framework */; };
+		E685510F1D08681DBC19E8EE /* Pods_VoltusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C87C85D6BDC3F1F057E376F /* Pods_VoltusUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A8A4E5151B1F53895A32C6 /* Pods-Voltus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voltus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Voltus/Pods-Voltus.debug.xcconfig"; sourceTree = "<group>"; };
+		3E19A9D18DFBEF54ACE3CD0E /* Pods_Voltus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Voltus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFAE1DD4F2961673824FA2A /* Pods-VoltusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoltusTests/Pods-VoltusTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B33D37E0E7861B01F94407D /* Pods-Voltus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voltus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Voltus/Pods-Voltus.release.xcconfig"; sourceTree = "<group>"; };
+		8C87C85D6BDC3F1F057E376F /* Pods_VoltusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoltusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58FA74C1E8F7D6600FE1E88 /* Voltus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voltus.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A58FA74F1E8F7D6600FE1E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A58FA7511E8F7D6600FE1E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A58FA74F1E8F7D6600FE1E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Voltus/AppDelegate.swift; sourceTree = "<group>"; };
 		A58FA7541E8F7D6600FE1E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A58FA7561E8F7D6600FE1E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A58FA7591E8F7D6600FE1E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,22 @@
 		A58FA76B1E8F7D6600FE1E88 /* VoltusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoltusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58FA76F1E8F7D6600FE1E88 /* VoltusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltusUITests.swift; sourceTree = "<group>"; };
 		A58FA7711E8F7D6600FE1E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58FA7811E8F803B00FE1E88 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
+		A58FA7831E8FAA1C00FE1E88 /* CollectionViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewViewController.swift; sourceTree = "<group>"; };
+		A58FA7851E8FB82100FE1E88 /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		A58FA7871E8FC9A800FE1E88 /* SlideViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewViewController.swift; sourceTree = "<group>"; };
+		A58FA7891E8FCCFC00FE1E88 /* MiddeleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddeleTableViewCell.swift; sourceTree = "<group>"; };
+		A5CE6B5F1E9E460F0088D13F /* Color+UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+UIImageView.swift"; sourceTree = "<group>"; };
+		A5EEC6F31E93651200EFD1B7 /* ApplyLeavesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyLeavesViewController.swift; sourceTree = "<group>"; };
+		A5EEC6F51E936B3C00EFD1B7 /* ApplyLeavesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyLeavesCell.swift; sourceTree = "<group>"; };
+		A5EEC6F71E93A2AE00EFD1B7 /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		A5F5AFF91E90C2BE00553AE0 /* UIKit+DLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+DLExtensions.swift"; sourceTree = "<group>"; };
+		A5F83B4A1E961086007F3584 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		A5F841A51E956811005BEDEE /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		ABF7671249A36C0328CEBAE0 /* Pods_VoltusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoltusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55533F023CE8E432186024F /* Pods-VoltusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoltusUITests/Pods-VoltusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B87C0CD5E312B3948542F57B /* Pods-VoltusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoltusUITests/Pods-VoltusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5B0B6ED2B5E52A3F05D30E /* Pods-VoltusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoltusTests/Pods-VoltusTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA71F99610A886D8E45F451D /* Pods_Voltus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DE37F75A70C989FAF2BF15 /* Pods_VoltusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +104,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E685510F1D08681DBC19E8EE /* Pods_VoltusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		719E99D36FF638D9C07F3222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E19A9D18DFBEF54ACE3CD0E /* Pods_Voltus.framework */,
+				ABF7671249A36C0328CEBAE0 /* Pods_VoltusTests.framework */,
+				8C87C85D6BDC3F1F057E376F /* Pods_VoltusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A58FA7431E8F7D6500FE1E88 = {
 			isa = PBXGroup;
 			children = (
+				A58FA74F1E8F7D6600FE1E88 /* AppDelegate.swift */,
 				A58FA74E1E8F7D6600FE1E88 /* Voltus */,
 				A58FA7631E8F7D6600FE1E88 /* VoltusTests */,
 				A58FA76E1E8F7D6600FE1E88 /* VoltusUITests */,
 				A58FA74D1E8F7D6600FE1E88 /* Products */,
+				C9D8A0D64E544F4094040F35 /* Pods */,
+				719E99D36FF638D9C07F3222 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +147,21 @@
 		A58FA74E1E8F7D6600FE1E88 /* Voltus */ = {
 			isa = PBXGroup;
 			children = (
-				A58FA74F1E8F7D6600FE1E88 /* AppDelegate.swift */,
-				A58FA7511E8F7D6600FE1E88 /* ViewController.swift */,
+				A58FA7811E8F803B00FE1E88 /* SignInViewController.swift */,
+				A58FA7831E8FAA1C00FE1E88 /* CollectionViewViewController.swift */,
+				A5F841A51E956811005BEDEE /* OTPViewController.swift */,
+				A5F83B4A1E961086007F3584 /* ChangePasswordViewController.swift */,
 				A58FA7531E8F7D6600FE1E88 /* Main.storyboard */,
+				A5EEC6F71E93A2AE00EFD1B7 /* CalenderViewController.swift */,
+				A5EEC6F51E936B3C00EFD1B7 /* ApplyLeavesCell.swift */,
+				A5EEC6F31E93651200EFD1B7 /* ApplyLeavesViewController.swift */,
+				A5CE6B5F1E9E460F0088D13F /* Color+UIImageView.swift */,
+				A58FA7851E8FB82100FE1E88 /* CollectionCell.swift */,
+				A58FA7871E8FC9A800FE1E88 /* SlideViewViewController.swift */,
+				A58FA7891E8FCCFC00FE1E88 /* MiddeleTableViewCell.swift */,
 				A58FA7561E8F7D6600FE1E88 /* Assets.xcassets */,
 				A58FA7581E8F7D6600FE1E88 /* LaunchScreen.storyboard */,
+				A5F5AFF91E90C2BE00553AE0 /* UIKit+DLExtensions.swift */,
 				A58FA75B1E8F7D6600FE1E88 /* Info.plist */,
 			);
 			path = Voltus;
@@ -125,6 +185,19 @@
 			path = VoltusUITests;
 			sourceTree = "<group>";
 		};
+		C9D8A0D64E544F4094040F35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00A8A4E5151B1F53895A32C6 /* Pods-Voltus.debug.xcconfig */,
+				8B33D37E0E7861B01F94407D /* Pods-Voltus.release.xcconfig */,
+				EA5B0B6ED2B5E52A3F05D30E /* Pods-VoltusTests.debug.xcconfig */,
+				3FFAE1DD4F2961673824FA2A /* Pods-VoltusTests.release.xcconfig */,
+				B87C0CD5E312B3948542F57B /* Pods-VoltusUITests.debug.xcconfig */,
+				B55533F023CE8E432186024F /* Pods-VoltusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A58FA7741E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "Voltus" */;
 			buildPhases = (
+				255847BA16156E434BB23FF9 /* [CP] Check Pods Manifest.lock */,
 				A58FA7481E8F7D6500FE1E88 /* Sources */,
 				A58FA7491E8F7D6500FE1E88 /* Frameworks */,
 				A58FA74A1E8F7D6500FE1E88 /* Resources */,
+				AE25074A415E680AFDEFF2BB /* [CP] Embed Pods Frameworks */,
+				69179D94D98BDE16EF29991B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A58FA7771E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "VoltusTests" */;
 			buildPhases = (
+				C3E3863D903D32654FBE9FBE /* [CP] Check Pods Manifest.lock */,
 				A58FA75C1E8F7D6600FE1E88 /* Sources */,
 				A58FA75D1E8F7D6600FE1E88 /* Frameworks */,
 				A58FA75E1E8F7D6600FE1E88 /* Resources */,
+				BFAE2FD4DA0A80EDFB1CB302 /* [CP] Embed Pods Frameworks */,
+				9F50E0AFAE4D8E05C0697C46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A58FA77A1E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "VoltusUITests" */;
 			buildPhases = (
+				2B7FAE2D01648F643F83EC94 /* [CP] Check Pods Manifest.lock */,
 				A58FA7671E8F7D6600FE1E88 /* Sources */,
 				A58FA7681E8F7D6600FE1E88 /* Frameworks */,
 				A58FA7691E8F7D6600FE1E88 /* Resources */,
+				0D2B8B631BC132C9BE34ED2C /* [CP] Embed Pods Frameworks */,
+				C78AE496871B10B4A7A65E1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +339,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D2B8B631BC132C9BE34ED2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoltusUITests/Pods-VoltusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		255847BA16156E434BB23FF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7FAE2D01648F643F83EC94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69179D94D98BDE16EF29991B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voltus/Pods-Voltus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F50E0AFAE4D8E05C0697C46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoltusTests/Pods-VoltusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE25074A415E680AFDEFF2BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voltus/Pods-Voltus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFAE2FD4DA0A80EDFB1CB302 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoltusTests/Pods-VoltusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E3863D903D32654FBE9FBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C78AE496871B10B4A7A65E1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoltusUITests/Pods-VoltusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A58FA7481E8F7D6500FE1E88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A58FA7521E8F7D6600FE1E88 /* ViewController.swift in Sources */,
+				A5EEC6F81E93A2AE00EFD1B7 /* CalenderViewController.swift in Sources */,
+				A5EEC6F61E936B3C00EFD1B7 /* ApplyLeavesCell.swift in Sources */,
+				A58FA7821E8F803B00FE1E88 /* SignInViewController.swift in Sources */,
+				A5CE6B601E9E460F0088D13F /* Color+UIImageView.swift in Sources */,
+				A58FA7841E8FAA1C00FE1E88 /* CollectionViewViewController.swift in Sources */,
+				A58FA78A1E8FCCFC00FE1E88 /* MiddeleTableViewCell.swift in Sources */,
 				A58FA7501E8F7D6600FE1E88 /* AppDelegate.swift in Sources */,
+				A5F841A61E956812005BEDEE /* OTPViewController.swift in Sources */,
+				A5F5AFFA1E90C2BE00553AE0 /* UIKit+DLExtensions.swift in Sources */,
+				A58FA7861E8FB82100FE1E88 /* CollectionCell.swift in Sources */,
+				A5F83B4B1E961086007F3584 /* ChangePasswordViewController.swift in Sources */,
+				A58FA7881E8FC9A800FE1E88 /* SlideViewViewController.swift in Sources */,
+				A5EEC6F41E93651200EFD1B7 /* ApplyLeavesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +646,7 @@
 		};
 		A58FA7751E8F7D6600FE1E88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A8A4E5151B1F53895A32C6 /* Pods-Voltus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D9PJNN777J;
@@ -428,6 +660,7 @@
 		};
 		A58FA7761E8F7D6600FE1E88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B33D37E0E7861B01F94407D /* Pods-Voltus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D9PJNN777J;
@@ -441,6 +674,7 @@
 		};
 		A58FA7781E8F7D6600FE1E88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5B0B6ED2B5E52A3F05D30E /* Pods-VoltusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +690,7 @@
 		};
 		A58FA7791E8F7D6600FE1E88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFAE1DD4F2961673824FA2A /* Pods-VoltusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +706,7 @@
 		};
 		A58FA77B1E8F7D6600FE1E88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87C0CD5E312B3948542F57B /* Pods-VoltusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = D9PJNN777J;
@@ -485,6 +721,7 @@
 		};
 		A58FA77C1E8F7D6600FE1E88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55533F023CE8E432186024F /* Pods-VoltusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = D9PJNN777J;
@@ -516,6 +753,7 @@
 				A58FA7761E8F7D6600FE1E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A58FA7771E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "VoltusTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +762,7 @@
 				A58FA7791E8F7D6600FE1E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A58FA77A1E8F7D6600FE1E88 /* Build configuration list for PBXNativeTarget "VoltusUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +771,7 @@
 				A58FA77C1E8F7D6600FE1E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

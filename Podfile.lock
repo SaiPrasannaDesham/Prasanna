@@ -1,0 +1,15 @@
+PODS:
+  - FSCalendar (2.7.4)
+  - SlideMenuControllerSwift (3.0.1)
+
+DEPENDENCIES:
+  - FSCalendar
+  - SlideMenuControllerSwift
+
+SPEC CHECKSUMS:
+  FSCalendar: e95995a746acae531c4a7dd636b8393233125ec5
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+
+PODFILE CHECKSUM: 0ec6e80e59c9c36a1dad697b74547ff129868b9f
+
+COCOAPODS: 1.2.0
