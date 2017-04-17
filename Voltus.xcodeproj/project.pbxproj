@@ -22,7 +22,6 @@
 		A5CE6B601E9E460F0088D13F /* Color+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE6B5F1E9E460F0088D13F /* Color+UIImageView.swift */; };
 		A5EEC6F41E93651200EFD1B7 /* ApplyLeavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EEC6F31E93651200EFD1B7 /* ApplyLeavesViewController.swift */; };
 		A5EEC6F61E936B3C00EFD1B7 /* ApplyLeavesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EEC6F51E936B3C00EFD1B7 /* ApplyLeavesCell.swift */; };
-		A5EEC6F81E93A2AE00EFD1B7 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EEC6F71E93A2AE00EFD1B7 /* CalenderViewController.swift */; };
 		A5F5AFFA1E90C2BE00553AE0 /* UIKit+DLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5AFF91E90C2BE00553AE0 /* UIKit+DLExtensions.swift */; };
 		A5F83B4B1E961086007F3584 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F83B4A1E961086007F3584 /* ChangePasswordViewController.swift */; };
 		A5F841A61E956812005BEDEE /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F841A51E956811005BEDEE /* OTPViewController.swift */; };
@@ -73,7 +72,6 @@
 		A5CE6B5F1E9E460F0088D13F /* Color+UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+UIImageView.swift"; sourceTree = "<group>"; };
 		A5EEC6F31E93651200EFD1B7 /* ApplyLeavesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyLeavesViewController.swift; sourceTree = "<group>"; };
 		A5EEC6F51E936B3C00EFD1B7 /* ApplyLeavesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyLeavesCell.swift; sourceTree = "<group>"; };
-		A5EEC6F71E93A2AE00EFD1B7 /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 		A5F5AFF91E90C2BE00553AE0 /* UIKit+DLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+DLExtensions.swift"; sourceTree = "<group>"; };
 		A5F83B4A1E961086007F3584 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		A5F841A51E956811005BEDEE /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				A5F841A51E956811005BEDEE /* OTPViewController.swift */,
 				A5F83B4A1E961086007F3584 /* ChangePasswordViewController.swift */,
 				A58FA7531E8F7D6600FE1E88 /* Main.storyboard */,
-				A5EEC6F71E93A2AE00EFD1B7 /* CalenderViewController.swift */,
 				A5EEC6F51E936B3C00EFD1B7 /* ApplyLeavesCell.swift */,
 				A5EEC6F31E93651200EFD1B7 /* ApplyLeavesViewController.swift */,
 				A5CE6B5F1E9E460F0088D13F /* Color+UIImageView.swift */,
@@ -482,7 +479,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5EEC6F81E93A2AE00EFD1B7 /* CalenderViewController.swift in Sources */,
 				A5EEC6F61E936B3C00EFD1B7 /* ApplyLeavesCell.swift in Sources */,
 				A58FA7821E8F803B00FE1E88 /* SignInViewController.swift in Sources */,
 				A5CE6B601E9E460F0088D13F /* Color+UIImageView.swift in Sources */,
